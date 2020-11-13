@@ -28,7 +28,7 @@ class CartItem extends React.Component{
 
     decreaseQty(){
         const {quantity} = this.state;
-        if(quantity==0){
+        if(quantity===0){
             return;
         }
         this.setState({
@@ -44,6 +44,7 @@ class CartItem extends React.Component{
                     <img 
                     style={styles.images} 
                     src={this.state.img}
+                    alt='product image'
                     ></img>
                 </div>
                 <div className="cartRight">

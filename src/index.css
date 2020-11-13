@@ -30,3 +30,8 @@ body {
   width: 40px;
   cursor: pointer;
 }
+
+.cart{
+  display: flex;
+  flex-direction: column;
+}
